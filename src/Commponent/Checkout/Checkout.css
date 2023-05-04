@@ -1,0 +1,248 @@
+:root{
+    --PrimaryColor: hsl(26, 93%, 50%);
+    --HoverColor: hsl(26, 90%, 42%);
+    --whiteColor:hsl(0, 0%,100%);
+    --blackColor: hsl(0,0%, 18%);
+    --textColor: hsl(240, 1%, 48%);
+    --whiteColorDeam: hsl(0,0%, 93%);
+    --greyBg: hsl(0,0%, 96%);
+    --greyText:rgb(190, 190, 190);
+    --inputColor: hsl(330, 12%, 97%);
+ }
+ .navBarSection .header{
+      position: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+     
+      width: 100%;
+      background-color:#f9f9fa;
+     
+    }
+.logoDiv .logo img{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: .2rem;
+    margin-left: 20px;
+}
+.navItem .flights{
+    color: var(--color-primary,#008cff);  
+}
+
+.navBarSection .header .navBar{
+    
+       position: absolute;
+        width: max-content;
+        padding: 1rem;
+        top: 0;
+        left: 13%;
+        background: transparent;
+      
+        
+        transition: .5s ease;
+        z-index: 1000;
+
+}
+.navLists
+    {
+        flex-direction: row;
+        justify-content: center;
+      
+}
+.navItem{
+    padding: 1.2rem;
+    padding-left: 3rem;
+}
+
+.navLink 
+{
+    color: var(--textColor);
+    font-size: .9rem;
+    font-weight: 600;
+   
+
+}
+.navLink:hover{
+    color: var(--color-primary,#008cff);        
+}
+.headerBtns{
+    flex-direction: row;
+    padding-left: 1rem;
+
+}
+.btn{
+    margin-left: .5rem;
+    margin-top: 2PX;
+}
+.btn a{
+    font-weight: 600;
+}
+.btn a:hover{
+    color: var(--whiteColor);
+}
+.loginBtn{
+    background: none;
+    border: 1px solid var(--color-primary,#008cff);
+}
+.loginBtn a {
+    color: var(--color-primary,#2167d2);
+    list-style: none;
+    text-decoration: none;
+
+}
+.loginBtn a:hover {
+    color: var(--color-primary,#e2e6ed);
+
+}
+.loginBtn:hover
+{
+    background: var(--color-primary,#008cff);
+}
+.navLink .icon{
+  
+    height: 20px;
+    width: 20px;
+    display: flex;
+    
+}
+.holiday{
+    align-items: center;
+}
+/*
+@media (max-width:768px){
+    .navBarSection .header .navBar{
+        background-color: var(--greyBg);
+           position: absolute;
+            height: max-content;
+            padding: 1rem;
+            top: 0;
+            left: 26%;
+            box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+            transition: .5s ease;
+            z-index: 1000;
+    
+    }
+    .navLists
+        {
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin: auto;
+    }
+    .navItem{
+        padding: 1rem 0;
+    }
+    .navLink 
+    {
+        color: var(--textColor);
+        font-size: .9rem;
+        font-weight: 600;
+       
+    
+    }
+    .navLink:hover{
+        color: var(--color-primary,#008cff);        
+    }
+    .headerBtns{
+        flex-direction: column;
+    
+    }
+    .btn{
+        margin-top: 1rem;
+    }
+    .btn a{
+        font-weight: 600;
+    }
+    .btn a:hover{
+        color: var(--whiteColor);
+    }
+    .loginBtn{
+        background: none;
+        border: 1px solid var(--color-primary,#008cff);
+    }
+    .loginBtn a {
+        color: var(--color-primary,#2167d2);
+    
+    }
+    .loginBtn a:hover {
+        color: var(--color-primary,#e2e6ed);
+    
+    }
+    .loginBtn:hover
+    {
+        background: var(--color-primary,#008cff);
+    }
+    .closeNavbar
+    {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        color: var(--color-primary,#6c6f70);
+    }
+    .closeNavbar:hover .icon 
+    {
+        color: var(--color-primary,#109ecd);
+    }
+    .activeNavbar{
+        left: 0;
+    }
+    .toggleNavbar .icon{
+        display: flex;
+    
+    }
+    }
+    
+*/
+
+ 
+
+
+ /*
+ .navBarSection .header
+ {
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: transparent;
+    z-index: 1000;
+ }
+ .logoDiv .logo{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+
+ }
+ 
+.navBarSection .header .navBar{
+        background-color: var(--greyBg);
+       position: relative;
+        height: max-content;
+        padding: 1rem;
+        top: 0;
+        left: 0;
+        box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+        transition: .5s ease;
+        z-index: 1000;
+
+    }
+    .navLists
+    {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+    
+ 
+
+    
+ 
+
+
+    
+*/
